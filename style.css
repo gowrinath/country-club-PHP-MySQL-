@@ -1,0 +1,39 @@
+/*body {
+
+}
+
+#logo {
+	padding: 0px 5px 2px 5px;
+}*/
+
+body {
+    margin-top: 125px;
+    background-image: url("bg.png");
+    background-repeat: repeat;
+}
+
+/*.navbar-fixed-top .navbar-header{
+	padding: 15px 0;
+}*/
+
+.navbar-fixed-top .nav {
+  padding: 15px 0;
+}
+
+@media (max-width: 767px) { 
+    .navbar-brand {
+        padding: 0;        
+    }
+
+    .navbar-brand img {
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+}
+
+/*.navbar .brand {
+	max-height: 100px;
+	overflow: visible;
+	padding-top: 0;
+	padding-bottom: 0; 
+}*/
